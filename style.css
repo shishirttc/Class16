@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(sparkler.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: tahoma;
+}
+
+.wrapper{
+    border-radius: 10px;
+    width: 40%;
+    margin: 50px auto;
+    background: #ffffff57;
+}
+
+.wrapper h1{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    text-shadow: 3px 5px black;
+}
+
+div{
+    padding: 40px;
+}
+label{
+    display: block;
+    font-size: 20px;
+    padding: 20px 0 010px;
+    font-weight: bold;
+
+}
+
+input{
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    background: #bbbbbb3b;
+    
+}
+
+.submit{
+    margin-left: 30%;
+}
+#submit{
+    width: 50%;
+    background: #ff0505fb;
+    border: 0;
+    color: #fff;
+    font-size: 22px;
+}
+
+#submit:hover{
+    background: yellow;
+    color: #000;
+}
+
+p{
+    color: #fff;
+    font-size: 20px;
+}
+
+p a{
+    color: #8ecee2;
+}
